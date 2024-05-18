@@ -98,7 +98,7 @@ impl<'a> Agent<'a> {
             }
         } else if target_file_metadata.is_ok()
             && external_file_metadata.is_ok()
-            && !external_file_metadata.as_ref().unwrap().is_symlink()
+            && external_file_metadata.as_ref().unwrap().is_symlink()
         {
             eprintln!(
                 "[Config Mapper] >>> {} >>> skip, symlink already exists",
