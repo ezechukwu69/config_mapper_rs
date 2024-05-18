@@ -23,7 +23,6 @@ impl<'a> Agent<'a> {
     }
 
     fn run_for_config(self: &Self, config: &Config) {
-        println!("{:#?}", config);
         let path = &config.external.clone();
         let path = path.replace("~", &std::env::var("HOME").unwrap_or("UNKNOWN".into()));
         let target_path = &config.target.clone();
