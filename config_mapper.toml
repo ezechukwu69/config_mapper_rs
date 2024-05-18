@@ -1,0 +1,6 @@
+[[item]]
+name = "test"
+target = "~/Development/rust/config_mapper/test/nvim"
+# external = "~/Development/rust/config_mapper/test/nvim-clone"
+external = "~/.config/nvim-mvim"
+# repo = "git@github.com:ezechukwu69/micro-nvim.git"
