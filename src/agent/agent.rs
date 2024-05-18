@@ -1,6 +1,6 @@
 use std::{
     fs,
-    io::{Error, Stdin},
+    io::Error,
     ops::Add,
     process::{Command, ExitStatus, Stdio},
 };
